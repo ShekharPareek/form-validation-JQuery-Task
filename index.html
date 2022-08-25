@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Registration form</h2>
+      <form class="form-container">
+        <div class="form-group">
+          <label class="name" for="fname">First name</label>
+          <input
+            class="input alpha"
+            type="text"
+            id="first_name"
+            placeholder="Enter first name"
+            name="fname"
+            autocomplete="off"
+          />
+          <h3 class="errortext" id="fnamecheck_error"></h3>
+        </div>
+        <div class="form-group">
+          <label for="lname">Last name</label>
+          <input
+            class="input alpha"
+            type="text"
+            id="last_name"
+            placeholder="Enter last name"
+            name="lname"
+            autocomplete="off"
+          />
+          <h3 class="errortext" id="lnamecheck_error"></h3>
+        </div>
+        <div class="form-group">
+          <label for="lname">Email</label>
+          <input
+            class="input"
+            type="text"
+            id="email"
+            placeholder="Enter your email"
+            name="email"
+            autocomplete="off"
+          />
+          <h3 class="errortext" id="emailcheck_error"></h3>
+        </div>
+        <div class="form-group">
+          <label for="phone_number">Phone number</label>
+          <input
+            class="input"
+            maxlength="10"
+            placeholder="Enter your phone number"
+            type="text"
+            id="phone"
+            name="integer"
+            autocomplete="off"
+          />
+          <h3 class="errortext" id="phonecheck_error"></h3>
+        </div>
+
+        <div class="gender-grup">
+          <label class="gender-title" for="Gender">Gender</label>
+
+          <div class="radio-class">
+            <label for="gender_male">Male </label>
+            <input
+              class="radio-btn"
+              type="radio"
+              id="gender_male"
+              value="male"
+              name="gender"
+            />
+            <label for="gender_female">Female</label>
+            <input
+              class="radio-btn"
+              type="radio"
+              id="gender_female"
+              value="female"
+              name="gender"
+            />
+          </div>
+        </div>
+        <input class="btn" type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
