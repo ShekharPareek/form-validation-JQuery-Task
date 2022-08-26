@@ -1,0 +1,223 @@
+header {
+    background-color: #DEDEDE;
+    padding: 0;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    padding-top: 10px;
+    border-shadow;
+    ;
+    color: black;
+    margin: 0 auto;
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bar {
+    display: flex;
+    column-gap: 30px;
+    padding: 10px;
+    transition: 0.2s;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.header {
+    position: relative;
+    padding: 10px;
+    /*   transition-timing-function: ease-in-out; */
+}
+
+.fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0px 1px 10px #999;
+    /*   trasition:height 1s; */
+
+}
+
+.tab-section {
+    padding: 5px;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+#section-1 {
+    background-color: red;
+}
+
+.tab-section {
+    display: none;
+}
+
+.btn {
+    background-color: cyan;
+    border: none;
+    padding: 7px;
+    float: right;
+    position: sticky;
+    cursor: pointer;
+    top: 83%;
+}
+
+/*accordion------------------*/
+.accordion-box {
+    display: block;
+    margin: 20px px;
+}
+
+
+
+.accordions {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-bottom: 70px;
+}
+
+.section {
+    max-width: 100%;
+    height: auto;
+    width: 50%;
+    padding: 20px;
+    background-color: #1e90ff;
+    border-style: none;
+    color: white;
+    font-size: 19px;
+    text-align: left;
+    font-family: "Brush Script MT", cursive;
+    transform: scaleY(1);
+    trasnform-origin: top;
+}
+
+._active .section,
+.section:hover {
+    background-color: #505581;
+    cursor: pointer;
+}
+
+.section:after {
+    content: "+";
+    float: right;
+}
+
+.para {
+    display: none;
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+    font-size: 18px;
+    background-color: yellow;
+    margin: 0;
+    font-family: "Brush Script MT", cursive;
+}
+
+._active .section:after {
+    content: "-";
+    /*   transform: rotate(90deg); */
+}
+
+
+._active .para {
+    display: block;
+}
+
+
+/*form validation------------------*/
+
+body {
+    background-color: azure;
+    margin: 0;
+}
+
+.form-container {
+    display: inline;
+    padding: 0px;
+}
+
+.gender-grup {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-class {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    column-gap: 5px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.form-box {
+    display: block;
+    background-color: #F5F5F5;
+    font-size: 15px;
+    font-weight: 700;
+    max-width: 100%;
+    width: 420px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.input {
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    width: 390px;
+    border-radius: 3px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-save {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #0a6dc4;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #137bd6;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.errortext {
+    display: block;
+    color: red;
+    font-size: 17px;
+    margin: 0;
+}

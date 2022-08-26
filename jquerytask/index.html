@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>!</title>
+    <link href="index.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="container">
+        <span>LOGO</span>
+        <div class="bar">
+          <a id="home123" href="#">Home</a>
+          <a id="about" href="#">About</a>
+          <a id="blog" href="#">Blog</a>
+          <a href="#">ContactUs</a>
+          <a href="#">Gallery</a>
+        </div>
+      </nav>
+    </header>
+
+    <div>
+      <h1 class="heading">Lorem Ipsum</h1>
+    </div>
+    <article class="tab-section" data-tabsection="home123">
+      <b>Home</b> Lorem ipsum dolor sit amet. Quo dolore facere ut maxime
+      temporibus sit rerum possimus nam velit expedita nam dolorem tempora ut
+      galisum odit aut iure officia. Ea nihil sint qui aperiam quas a nihil
+      galisum ea sequi excepturi id galisum officia et omnis ipsam et facere
+      doloribus. Qui illo explicabo sit minus laborum qui nisi perferendis et
+      aliquid molestias id ratione distinctio. Eum doloribus aliquid et deserunt
+      veritatis sed impedit dignissimos sit aliquam quasi qui neque fugiat!
+      Lorem ipsum dolor sit amet. Quo dolore facere ut maxime temporibus sit
+      rerum possimus nam velit expedita nam dolorem tempora ut galisum odit aut
+      iure officia. Ea nihil sint qui aperiam quas a nihil galisum ea sequi
+      excepturi id galisum officia et omnis ipsam et facere doloribus. Qui illo
+      explicabo sit minus laborum qui nisi perferendis et aliquid molestias id
+      ratione distinctio. Eum doloribus aliquid et deserunt veritatis sed
+      impedit dignissimos sit aliquam quasi qui neque fugiat! Lorem ipsum dolor
+      sit amet. Quo dolore facere ut maxime temporibus sit rerum possimus nam
+      velit expedita nam dolorem tempora ut galisum odit aut iure officia. Ea
+      nihil sint qui aperiam quas a nihil galisum ea sequi excepturi id galisum
+      officia et omnis ipsam et facere doloribus. Qui illo explicabo sit minus
+      laborum qui nisi perferendis et aliquid molestias id ratione distinctio.
+      Eum doloribus aliquid et deserunt veritatis sed impedit dignissimos sit
+      aliquam quasi qui neque fugiat! Lorem ipsum dolor sit amet. Quo dolore
+      facere ut maxime temporibus sit rerum possimus nam velit expedita nam
+      dolorem tempora ut galisum odit aut iure officia. Ea nihil sint qui
+      aperiam quas a nihil galisum ea sequi excepturi id galisum officia et
+      omnis ipsam et facere doloribus. Qui illo explicabo sit minus laborum qui
+      nisi perferendis et aliquid molestias id ratione distinctio. Eum doloribus
+      aliquid et deserunt veritatis sed impedit dignissimos sit aliquam quasi
+      qui neque fugiat! Lorem ipsum dolor sit amet. Quo dolore facere ut maxime
+      temporibus sit rerum possimus nam velit expedita nam dolorem tempora ut
+      galisum odit aut iure officia. Ea nihil sint qui aperiam quas a nihil
+      galisum ea sequi excepturi id galisum officia et omnis ipsam et facere
+      doloribus. Qui illo explicabo sit minus laborum qui nisi perferendis et
+      aliquid molestias id ratione distinctio. Eum doloribus aliquid et deserunt
+      veritatis sed impedit dignissimos sit aliquam quasi qui neque fugiat!
+    </article>
+    <article data-tabsection="about" class="tab-section tab-2">
+      <b>About</b>Lorem ipsum dolor sit amet. Quo dolore facere ut maxime
+      temporibus sit rerum possimus nam velit expedita nam dolorem tempora ut
+      galisum odit aut iure officia. Ea nihil sint qui aperiam quas a nihil
+      galisum ea sequi excepturi id galisum officia et omnis ipsam et facere
+      doloribus. Qui illo explicabo sit minus laborum qui nisi perferendis et
+      aliquid molestias id ratione distinctio. Eum doloribus aliquid et deserunt
+      veritatis sed impedit dignissimos sit aliquam quasi qui neque fugiat!
+    </article>
+
+    <article data-tabsection="blog" class="tab-section">
+      <b>BLOG</b>Lorem ipsum dolor sit amet. Quo dolore facere ut maxime
+      temporibus sit rerum possimus nam velit expedita nam dolorem tempora ut
+      galisum odit aut iure officia. Ea nihil sint qui aperiam quas a nihil
+      galisum ea sequi excepturi id galisum officia et omnis ipsam et facere
+      doloribus. Qui illo explicabo sit minus laborum qui nisi perferendis et
+      aliquid molestias id ratione distinctio. Eum doloribus aliquid et deserunt
+      veritatis sed impedit dignissimos sit aliquam quasi qui neque fugiat!
+    </article>
+
+    <br /><bt></bt>
+    <button click="scrollToTop()" class="btn">scroll top</button>
+    <!------------------- accordion------------------------------------------------>
+
+    <h1 style="color: #3c7620">ACCORDION Using jQuery</h1>
+    <div id="accordiandemo" class="accordions">
+      <div id="acc" class="accordion">
+        <button class="section">HTML</button>
+        <p class="para">
+          HTML is a markup language heavily utilized for creating web pages and
+          web applications. HTML, when combined with JavaScript and CSS, has
+          become a milestone for web development. One of the useful aspects of
+          HTML is, it can embed programs written in a scripting language like
+          JavaScript, which is responsible for affecting the behaviour and
+          content of web pages. CSS inclusion would affect the layout and
+          appearance of the content. The basic building blocks of any HTML pages
+          are HTML elements
+        </p>
+      </div>
+      <div class="accordion">
+        <button class="section">CSS</button>
+        <p class="para">
+          CSS is designed to enable the separation of presentation and content,
+          including layout, colors, and fonts. This separation can improve
+          content accessibility; provide more flexibility and control in the
+          specification of presentation characteristics; enable multiple web
+          pages to share formatting by specifying the relevant CSS in a separate
+          .css file, which reduces complexity and repetition in the structural
+          content; and enable the .css file to be cached to improve the page
+          load speed between the pages that share the file and its formatting.
+        </p>
+      </div>
+      <div id="acc-3" class="accordion">
+        <button class="section">JAVASCRIPT</button>
+        <p class="para">
+          JavaScript runs on the client side of the web, which can be used to
+          design / program how the web pages behave on the occurrence of an
+          event. JavaScript is an easy to learn and also powerful scripting
+          language, widely used for controlling web page behavior. Javascript is
+          both imperative and declarative type of language. JavaScript contains
+          a standard library of objects, like Array, Date, and Math, and a core
+          set of language elements like operators, control structures, and
+          statements.
+        </p>
+      </div>
+    </div>
+
+    <!-----------------------------form validation---------------------------------------------->
+    <h1 style="color: #3c7620">Form validation</h1>
+    <div class="form-box">
+      <h2>Registration form</h2>
+      <form class="form-container">
+        <div class="form-group">
+          <label class="name" for="fname">First name</label>
+          <input
+            class="input alpha"
+            type="text"
+            id="first_name"
+            placeholder="Enter first name"
+            name="fname"
+            autocomplete="off"
+          />
+          <h3 class="errortext" id="fnamecheck_error"></h3>
+        </div>
+        <div class="form-group">
+          <label for="lname">Last name</label>
+          <input
+            class="input alpha"
+            type="text"
+            id="last_name"
+            placeholder="Enter last name"
+            name="lname"
+            autocomplete="off"
+          />
+          <h3 class="errortext" id="lnamecheck_error"></h3>
+        </div>
+        <div class="form-group">
+          <label for="lname">Email</label>
+          <input
+            class="input"
+            type="text"
+            id="email"
+            placeholder="Enter your email"
+            name="email"
+            autocomplete="off"
+          />
+          <h3 class="errortext" id="emailcheck_error"></h3>
+        </div>
+        <div class="form-group">
+          <label for="phone_number">Phone number</label>
+          <input
+            class="input"
+            maxlength="10"
+            placeholder="Enter your phone number"
+            type="text"
+            id="phone"
+            name="integer"
+            autocomplete="off"
+          />
+          <h3 class="errortext" id="phonecheck_error"></h3>
+        </div>
+
+        <div class="gender-grup">
+          <label class="gender-title" for="Gender">Gender</label>
+
+          <div class="radio-class">
+            <label for="gender_male">Male </label>
+            <input
+              class="radio-btn"
+              type="radio"
+              id="gender_male"
+              value="male"
+              name="gender"
+            />
+            <label for="gender_female">Female</label>
+            <input
+              class="radio-btn"
+              type="radio"
+              id="gender_female"
+              value="female"
+              name="gender"
+            />
+          </div>
+        </div>
+        <input class="btn-save" type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
