@@ -1,0 +1,9 @@
+.bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.bar .active-nav,
+.bar a:hover {
+    color: red;
+}
