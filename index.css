@@ -1,0 +1,202 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.border-shape {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.border-shape:hover {}
+
+.action {
+    opacity: 0.7;
+}
+
+.action:hover {
+    border-bottom: 4px solid white;
+    opacity: 1.0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.submit-button {
+    background-image: url('./imageedit_1_2733830500.png');
+    background-color: orange;
+    color: #fff;
+    transform: translateY(-7px);
+    width: 140px;
+    height: 45px;
+    border: none;
+    border-radius: 45px;
+    margin-top: 40px;
+}
+
+.submit-button:hover {
+    box-shadow: 0px 15px 20px hsl(32deg 100% 51%);
+    color: #fff;
+}
+
+.blue {
+    color: hsl(232deg 100% 30%);
+}
+
+.yellow {
+    color: hsl(32deg 100% 51%);
+}
+
+.content-box {
+    margin-top: 130px;
+}
+
+.shortborder {
+    border-bottom: 4px solid hsl(32deg 100% 51%);
+    max-width: 100%;
+    width: 2%;
+}
+
+.movement {
+    position: absolute;
+}
+
+.container-width {
+    max-width: 595px;
+}
+
+.btn-sub-2 {
+    display: block;
+    margin: -23px auto;
+}
+
+.radius-bagage {
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(222deg 88% 35%);
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    padding: 12px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    margin: 17px;
+}
+
+.lorem-width {
+    width: 88px;
+}
+
+.header-background {
+    background-color: #7fc3d8;
+}
+
+.content-position {
+    top: 45% !important;
+    left: 38% !important;
+}
+
+.header-border {
+    width: 32%;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.card-custom-button {
+    background-color: hsl(35deg 98% 50%);
+    box-shadow: 0 19px 38px rgb(0 0 0 / 30%), 0 15px 12px rgb(0 0 0 / 22%);
+    padding: 3px;
+    border-radius: 23px;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 4px 16px;
+}
+
+.card-custom-button-1 {
+    background-color: hsl(35deg 98% 50%);
+    box-shadow: 0 19px 38px rgb(0 0 0 / 30%), 0 15px 12px rgb(0 0 0 / 22%);
+    padding: 3px;
+    border-radius: 41px 6px 2px 39px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    width: 115px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 2%;
+    left: 60%;
+}
+
+.card-custom-button-2 {
+    background-color: white;
+    box-shadow: 0 19px 38px rgb(0 0 0 / 30%), 0 15px 12px rgb(0 0 0 / 22%);
+    padding: 3px;
+    border-radius: 0px 17px 14px 1px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: blue;
+    width: 146px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 39%;
+    left: 0;
+}
+
+.card-description {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.card-title {
+    font-size: 17px;
+}
+
+.footer-card:hover {
+    background-color: hsl(222deg 88% 35%);
+    color: white !important;
+    border: none;
+    border-radius: 52px 0 0 44px;
+    background-image: url(./imageedit_1_2733830500.png);
+    background-position: center;
+}
+
+.footer-card:hover .radius-bagage {
+    background-color: white;
+    color: rgb(255, 136, 0);
+}
+
+.footer-card:hover h6.item {
+    color: white;
+}
+
+.footer-card:hover:nth-last-of-type(-n+2) {
+    border-radius: 0 52px 44px 0;
+}
+
+.main_container {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+.nav-item a {
+    border-bottom: 3px solid transparent;
+}
+
+* {
+    font-weight: bold!important;
+}
+
+.wave-cover {
+    background-image: url('./imageedit_1_2733830500.png');
+    background-repeat: no-repeat center;
+    background-size: contain;
+    position: relative;
+}
